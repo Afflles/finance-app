@@ -598,8 +598,8 @@ async function supabaseInsert(table, data) {
 }
 
 // Get user_id
-const userId = user?.id || 622175416;;
-
+const userId = user?.id || null;
+alert("User ID: " + userId);
 // ===== INIT =====
 async function init() {
   // Set user info
